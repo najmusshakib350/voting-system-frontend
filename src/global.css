@@ -1,0 +1,257 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+.heading-one {
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  text-align: center;
+}
+.heading-five {
+  color: #00b4d8;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+.heading-six {
+  color: #fff;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+.alertBox {
+  width: 100%;
+  text-align: center;
+  color: #00b4d8;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+.alertBox.alertParagraph {
+  color: #ff0000;
+}
+.spinnerStyle {
+  border: 0.25em solid #ff0000;
+  border-right-color: transparent;
+}
+ul {
+  padding: 0;
+}
+
+/* Global Form Control code start */
+
+.content {
+  margin-left: 20%;
+  top: 8rem;
+}
+
+.Page__FormControl {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.Page__BothFormControl {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+.Page__FormControl__input {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 3.5rem;
+  border-radius: 50rem;
+  background-color: #fff;
+}
+
+.customBtn {
+  flex-basis: 18%;
+  border-radius: 50rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  border: 0;
+  color: #fff;
+  background-color: #023e8a;
+}
+.customBtn:not(:last-child) {
+  margin-right: 1rem;
+}
+.customBtn:hover {
+  background-color: #033679;
+}
+
+.Page__FormControl__input:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ced4da;
+  outline: none;
+  box-shadow: unset;
+}
+
+.submitUpbtn {
+  padding: 1rem 2rem;
+  min-width: 48%;
+}
+.customBtn.openFileDialogBtn {
+  border-radius: unset;
+  min-width: 20%;
+}
+.modal__header {
+  align-items: unset;
+  border-bottom: unset;
+}
+.modal__footer {
+  border-top: unset;
+}
+
+/* Global Form Control code end */
+/* User Profile Code Start */
+.userProfileContainer {
+  display: flex;
+  flex-direction: revert;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: 24%;
+  margin-left: auto;
+}
+.userProfileContainer figure {
+  flex-basis: 33%;
+  margin: 0;
+}
+.userProfileContainer h6 {
+  flex-basis: 50%;
+  margin-left: 2%;
+}
+.userProfileContainer__dropdownBtn {
+  flex-basis: 15%;
+}
+.userProfileContainer button {
+  background-color: transparent;
+}
+.userProfileContainer button:hover {
+  background-color: transparent;
+}
+.userProfileContainer__item {
+  margin-bottom: 0;
+}
+.userProfileContainer__item img {
+  margin: 0;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  object-fit: cover;
+}
+
+/* .userProfileContainer__item button i {
+  font-size: 1.5rem;
+  color: #fff;
+} */
+.dropdown-toggle::after {
+  font-size: 2rem;
+  vertical-align: unset;
+}
+.dropdown-menu-dark {
+  background-color: #023e8a;
+}
+.dropdown-menu-dark .dropdown-item.active {
+  color: #ff0000;
+  background-color: transparent;
+}
+.dropdown-menu {
+  inset: 2.2rem 0px auto auto !important;
+  min-width: 20rem;
+}
+/* User Profile Code end */
+/* User and Admin instruction code start */
+
+.instruction {
+  background-color: #f9f5f5;
+  min-height: calc(100vh - 10rem);
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.color-black {
+  color: #000;
+}
+.instruction ul {
+  margin-left: 4rem;
+}
+.instruction ul li {
+  font-size: 1.4rem;
+}
+.instruction ul li span {
+  color: #000;
+  text-transform: capitalize;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+/* User and Admin instuction code end */
+/* Responsive Design */
+@media only screen and (max-width: 991px) {
+  /* Navigation responsive code start*/
+  .userProfileContainer {
+    width: 32%;
+  }
+  /* Navigation responsive code end */
+}
+@media only screen and (max-width: 767px) {
+  /* Navigation responsive code start*/
+  .content {
+    margin-left: 0;
+  }
+  .userProfileContainer {
+    width: 42%;
+  }
+  /* Navigation responsive code end */
+}
+@media only screen and (max-width: 575px) {
+  /* Navigation responsive code start*/
+  .userProfileContainer {
+    width: 82%;
+  }
+  /* Navigation responsive code end */
+}
+@media only screen and (max-width: 375px) {
+  /* Navigation responsive code start*/
+  .userProfileContainer {
+    width: 100%;
+  }
+  /* Navigation responsive code end */
+}

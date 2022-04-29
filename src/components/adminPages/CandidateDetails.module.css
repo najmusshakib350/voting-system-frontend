@@ -1,0 +1,15 @@
+.table__columnData {
+  text-align: center;
+  color: #222 !important;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+/* Responsive Design */
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 767px) {
+  .table__columnDataHide {
+    display: none;
+  }
+}

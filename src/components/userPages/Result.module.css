@@ -1,0 +1,18 @@
+.result__candidatecontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.result__paragraph {
+  flex-basis: 50%;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.result__winnerparagraph {
+  color: #ff0000;
+}
+.result__othcandidateparagraph {
+  color: #222;
+}

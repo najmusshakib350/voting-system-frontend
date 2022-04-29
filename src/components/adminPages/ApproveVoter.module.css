@@ -1,0 +1,25 @@
+.ApproveVoter {
+}
+.ApproveVoter__Form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.ApproveVoter .ApproveVoter__Form .ApproveVoter__FormItem {
+  border-radius: 0;
+  border: 0;
+  background-color: unset;
+}
+.ApproveVoter__Form .ApproveVoter__FormItemNid {
+  flex-basis: 50%;
+}
+.ApproveVoter__Form .ApproveVoter__FormItemStatus {
+  flex-basis: 25%;
+  border-radius: 0;
+}
+.ApproveVoter__Form .ApproveVoter__FormItemBtn {
+  flex-basis: 20%;
+  min-width: unset;
+}

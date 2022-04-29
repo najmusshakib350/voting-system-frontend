@@ -1,0 +1,28 @@
+{
+  "voterinfo": [
+    {
+      "name": "Aminul Ismal",
+      "nidnumber": "2021111",
+      "image": "aminul.jpg",
+      "address": "0x91B9EF4ec9F2b66e6D6359bcEF044624c1076755"
+    },
+    {
+      "name": "Mir Mohaiminul Islam",
+      "nidnumber": "2021222",
+      "image": "mir.jpg",
+      "address": "0x6BFd2D844a7c09Dd699450B07A9d138A603f7BF6"
+    },
+    {
+      "name": "Najmus Shakib",
+      "nidnumber": "2021333",
+      "image": "shakib.jpg",
+      "address": "0x0bA8Fc88675FDbD256A1855A6A27Ec01eDc71873"
+    },
+    {
+      "name": "Naim Anik",
+      "nidnumber": "2021444",
+      "image": "anik.jpg",
+      "address": "0x94334B7fdf433B5d631e2D4ad80440630FD3bB6D"
+    }
+  ]
+}
